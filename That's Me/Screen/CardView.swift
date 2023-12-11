@@ -28,7 +28,8 @@ struct CardView: View {
                 //MARK: - BODY
                 Spacer()
                 //MARK: - FOOTER
-                
+                ShowMoreButton()
+                    .padding(30)
             } //: VSTACK
         } //: ZSTACK
         .frame(width: 320, height: 576)

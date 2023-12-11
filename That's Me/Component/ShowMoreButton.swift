@@ -9,10 +9,21 @@ import SwiftUI
 
 struct ShowMoreButton: View {
     var body: some View {
+        GeometryReader { geometry in
         ZStack{
-            RoundedRectangle(cornerRadius: 90)
-                .frame(height:50)
-        }
+            //MARK: - BACKGROUND
+                Capsule()
+                    .frame(height: geometry.size.width / 3)
+                    .foregroundStyle(
+                        LinearGradient(colors: [.CyanLight, .CyanVeryLight], startPoint: .bottom, endPoint: .top)
+                    )
+            //MARK: - BUTTON TITLE
+            Text("Show more")
+                .font(.system(size: 35))
+                .fontWeight(.black)
+                .foregroundStyle(LinearGradient(colors: [.CyanVeryDark, .CyanDark], startPoint: .bottom, endPoint: .top))
+            }
+        } //:ZSTACK
     }
 }
 
