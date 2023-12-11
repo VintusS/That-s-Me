@@ -14,6 +14,9 @@
 		275A0EC12B1BA2A30026F810 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A0EC02B1BA2A30026F810 /* Color.swift */; };
 		275A0EC42B1BA3CC0026F810 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A0EC32B1BA3CC0026F810 /* CardView.swift */; };
 		275A0EC62B1BA3D70026F810 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A0EC52B1BA3D70026F810 /* SettingsView.swift */; };
+		275A0ECA2B1BA9020026F810 /* CardBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A0EC92B1BA9020026F810 /* CardBackgroundView.swift */; };
+		275A0ECC2B1BABB10026F810 /* ShowMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275A0ECB2B1BABB10026F810 /* ShowMoreButton.swift */; };
+		27E1EFD22B1FA82300695581 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E1EFD12B1FA82300695581 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		275A0EC02B1BA2A30026F810 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		275A0EC32B1BA3CC0026F810 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		275A0EC52B1BA3D70026F810 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		275A0EC92B1BA9020026F810 /* CardBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackgroundView.swift; sourceTree = "<group>"; };
+		275A0ECB2B1BABB10026F810 /* ShowMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMoreButton.swift; sourceTree = "<group>"; };
+		27E1EFD12B1FA82300695581 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 		275A0EBE2B1BA1470026F810 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				275A0EC92B1BA9020026F810 /* CardBackgroundView.swift */,
+				275A0ECB2B1BABB10026F810 /* ShowMoreButton.swift */,
+				27E1EFD12B1FA82300695581 /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -170,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275A0ECA2B1BA9020026F810 /* CardBackgroundView.swift in Sources */,
 				275A0EB22B1B9FC70026F810 /* ContentView.swift in Sources */,
+				275A0ECC2B1BABB10026F810 /* ShowMoreButton.swift in Sources */,
+				27E1EFD22B1FA82300695581 /* CustomButtonView.swift in Sources */,
 				275A0EC62B1BA3D70026F810 /* SettingsView.swift in Sources */,
 				275A0EB02B1B9FC70026F810 /* That_s_MeApp.swift in Sources */,
 				275A0EC42B1BA3CC0026F810 /* CardView.swift in Sources */,
